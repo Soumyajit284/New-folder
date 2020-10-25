@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h2>HTML Forms</h2>
+    <form action="backend.py">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="date">
+        </div>
+        <br>
+        <div>
+            Age: <input type="number" name="num">
+        </div>
+        <br>
+        <div>
+            Favourite color: <input type="color" name="favCol">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="mail">
+        </div>
+        <br>
+        <div>
+            Password: <input type="password" name="pwd">
+        </div>
+        <br>
+        <div>
+            Do you wish to continue? <input type="checkbox" name="ok" checked>
+        </div>
+        <br>
+        <div>
+            <strong>You will get a car choose that</strong> <br>
+            <label for="car">Car: </label>
+            <select name="myCar" id="car">
+                <option value="bmw">BMW 360</option>
+                <option value="audi">Audi Q3</option>
+                <option value="swf" selected>Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            About you: <br> <textarea name="text" cols="15" rows="5" placeholder="Describe yourself"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now!">
+            <input type="reset" value="Reset Form">
+        </div>
+        <br>
+    </form>
+</body>
+
+</html>
